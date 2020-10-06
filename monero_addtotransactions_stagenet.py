@@ -44,7 +44,7 @@ def monero_addtransaction(category,
         orderid=0,
         senderid=0,
         digital_currency=4,
-        note=''
+
 
     )
     db.session.add(trans)
